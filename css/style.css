@@ -1,0 +1,758 @@
+/* DESKTOP VERSION */
+
+/*Settings Flexbox*/
+
+.flexCentre {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flexAround {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.flexBetween {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.flexColumnCentre {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.flexColumnAround {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.flexColumnBetween {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* Settings Nav */
+.sizeNav {
+  height: auto;
+}
+
+.sizeLiens {
+  width: 100%;
+}
+
+.sizeLien {
+  width: 140px;
+  height: 99px;
+}
+
+.sizeLien2 {
+  margin-left: 60%;
+}
+
+.colorLiens {
+  color: #0065FC;
+}
+
+.colorLiens2 {
+  color: black;
+}
+
+.bordureNav {
+  border-top: 1px solid transparent;
+}
+
+.bordureNav:hover {
+  border-top: 1px solid #0065FC;
+  cursor: pointer;
+}
+
+.bordureNav:hover>a {
+  color: #0065FC;
+}
+
+.marglogo {
+  margin-bottom: 7px;
+}
+
+.decorationNone {
+  text-decoration: none;
+}
+
+.bordureNone {
+  border: none;
+}
+
+.textBold {
+  font-weight: bold;
+}
+
+/*Settings Colors*/
+
+.colorBlue {
+  color: #0065FC;
+}
+
+.colorLightBlue {
+  color: #DEEBFF;
+}
+
+.colorGray {
+  color: #F2F2F2;
+}
+
+.backBlue {
+  background-color: #0065FC;
+}
+
+.backLightBlue {
+  background-color: #DEEBFF;
+}
+
+.backGray {
+  background-color: #F2F2F2;
+}
+
+/* HEADER */
+
+.desktopNone {
+  display: none;
+}
+
+.bordureSearch {
+  width: 400px;
+  border-radius: 10px;
+  border: 0.5px solid #F2F2F2;
+}
+
+.paddingSearch {
+  padding-left: 20px;
+}
+
+.searching {
+  height: 50px;
+  width: 230px;
+  font-size: 18px;
+  color: black;
+  font-weight: bold;
+}
+
+.iconSize {
+  height: 50px;
+  width: 50px;
+  border-radius: 10px 0 0 10px;
+}
+
+.buttonSearch {
+  height: 50px;
+  width: 120px;
+  color: white;
+  cursor: pointer;
+  border-radius: 0 10px 10px 0;
+  ;
+}
+
+/* FILTERS */
+
+.margFilter {
+  margin-top: 50px;
+  margin-bottom: 40px;
+}
+
+.filter {
+  display: flex;
+  align-items: center;
+}
+
+.margFilterTitle {
+  margin-right: 20px;
+}
+
+.filterIconsText {
+  border: 2px solid #F2F2F2;
+  height: 50px;
+  border-radius: 30px;
+  margin-right: 20px;
+}
+
+.filterIconsText:hover>.filterText {
+  color: #0065FC;
+}
+
+.filterIconsText:hover>.filterIcons {
+  color: white;
+  background-color: #0065FC;
+}
+
+.filterText {
+  height: 50px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 0 25px 25px 0;
+  font-weight: bold;
+}
+
+.filterIcons {
+  margin-left: -2px;
+  border-radius: 25px;
+  width: 52px;
+  height: 52px;
+  color: #0065FC;
+  background-color: #DEEBFF;
+}
+
+/* INFO ICONS */
+
+.info {
+  display: flex;
+  align-items: center;
+  padding-bottom: 25px;
+}
+
+.iconParent {
+  width: 20px;
+  height: 20px;
+  border: 2px solid #F2F2F2;
+  border-radius: 25px;
+  margin-right: 5px;
+}
+
+/*ACCOMODATION*/
+
+.sizeHebergements {
+  flex: 2;
+  height: 650px;
+  margin-right: 20px;
+  border-radius: 10px;
+}
+
+
+.sizePopulaires {
+  flex: 1;
+  height: 650px;
+  margin-left: 20px;
+  border-radius: 10px;
+}
+
+.blocHebergements {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.bloc1 {
+  margin-bottom: 10px;
+}
+
+
+.block2 {
+  margin-top: 10px;
+}
+
+/* ROOMS */
+
+.cubeHebergements {
+  width: 30%;
+  height: auto;
+  background-color: white;
+  padding: 1%;
+  border-radius: 20px;
+  box-shadow: 5px 5px 5px 1px #F2F2F2;
+}
+
+.cubeHebergements:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.cubeDetailsHebergements {
+  width: 90%;
+}
+
+/* Room 1 */
+
+.imgHebergements1 {
+  object-fit: cover;
+  width: 100%;
+  height: 120px;
+  border-radius: 15px 15px 0 0;
+}
+
+/* Room 2 */
+
+.imgHebergements2 {
+  object-fit: cover;
+  width: 100%;
+  height: 120px;
+  border-radius: 15px 15px 0 0;
+}
+
+/* Room 3 */
+
+.imgHebergements3 {
+  object-fit: cover;
+  width: 100%;
+  height: 120px;
+  border-radius: 15px 15px 0 0;
+}
+
+/* Room 4 */
+
+.imgHebergements4 {
+  object-fit: cover;
+  width: 100%;
+  height: 120px;
+  border-radius: 15px 15px 0 0;
+}
+
+/* Room 5 */
+
+.imgHebergements5 {
+  object-fit: cover;
+  width: 100%;
+  height: 120px;
+  border-radius: 15px 15px 0 0;
+}
+
+/* Room 6 */
+
+.imgHebergements6 {
+  object-fit: cover;
+  width: 100%;
+  height: 120px;
+  border-radius: 15px 15px 0 0;
+}
+
+.seemore {
+  cursor: pointer;
+}
+
+/* MORE POPULAR */
+
+.blocPopulaires {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.blocPopulaires12 {
+  margin-bottom: 22px;
+}
+
+.cubePopulaires {
+  background-color: white;
+  height: auto;
+  padding: 1% 0 1% 1%;
+  border-radius: 20px;
+}
+
+.cubePopulaires:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+}
+
+.cubeDetailsPopulaires {
+  width: 60%;
+  padding-left: 5%;
+}
+
+/* Popular Room 1 */
+
+.imgPopulaires1 {
+  object-fit: cover;
+  width: 35%;
+  height: 160px;
+  border-radius: 15px 0px 0 15px;
+}
+
+/* Popular Room 2 */
+
+.imgPopulaires2 {
+  object-fit: cover;
+  width: 35%;
+  height: 160px;
+  border-radius: 15px 0px 0 15px;
+}
+
+/* Popular Room 3 */
+
+.imgPopulaires3 {
+  object-fit: cover;
+  width: 35%;
+  height: 160px;
+  border-radius: 15px 0px 0 15px;
+}
+
+/*ACTIVITES*/
+
+.Activites {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.blocActivites {
+  width: 100%;
+  height: 600px;
+}
+
+.blocActivites2356 {
+  width: 23%;
+  height: 600px;
+}
+
+/* Bloc Settings */
+
+.cubeActivites {
+  width: 23%;
+  border-radius: 15px;
+  box-shadow: 5px 5px 5px 1px #F2F2F2;
+}
+
+.cubeActivites:hover {
+  cursor: pointer;
+  transform: scale(1.02);
+}
+
+.cubeActivites2356 {
+  width: 100%;
+  border-radius: 15px;
+  box-shadow: 5px 5px 5px 1px #F2F2F2;
+}
+
+.cubeActivites2356:hover {
+  cursor: pointer;
+  transform: scale(1.02);
+}
+
+/* End Bloc Settings */
+/* POPULAR ACTIVITIES IN MARSEILLE */
+.hauteurTitre {
+  height: 70px;
+}
+
+.titreActivites {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-left: 5%;
+  width: 95%;
+}
+
+/* Activities 1 */
+
+.imgActivites1 {
+  width: 100%;
+  height: 530px;
+  border-radius: 15px 15px 0 0px;
+  object-fit: cover;
+}
+
+/* Activities 2 */
+
+.imgActivites2 {
+  width: 100%;
+  height: 250px;
+  border-radius: 15px 15px 0 0px;
+  object-fit: cover;
+}
+
+/* Activities 3 */
+
+.imgActivites3 {
+  width: 100%;
+  height: 150px;
+  border-radius: 15px 15px 0 0px;
+  object-fit: cover;
+}
+
+/* Activities 4 */
+
+.imgActivites4 {
+  width: 100%;
+  height: 530px;
+  border-radius: 15px 15px 0 0px;
+  object-fit: cover;
+}
+
+/* Activities 5 */
+
+.imgActivites5 {
+  width: 100%;
+  height: 200px;
+  border-radius: 15px 15px 0 0px;
+  object-fit: cover;
+}
+
+/* Activities 6 */
+
+.imgActivites6 {
+  width: 100%;
+  height: 200px;
+  border-radius: 15px 15px 0 0px;
+  object-fit: cover;
+}
+
+/* FOOTER */
+
+.footer {
+  height: 300px;
+  margin-top: 100px;
+}
+
+.tailleBlocFoot {
+  height: 150px;
+}
+
+.margeBlocFoot1 {
+  margin-left: 5%;
+}
+
+.margeBlocFoot3 {
+  margin-right: 15%;
+}
+
+.LienFoot {
+  color: black;
+}
+
+.divLienFoot {
+  height: 30px;
+}
+
+/* Responsive Tablet and Smartphone */
+
+@media screen and (max-width: 1295px) {
+  .sizeLien2 {
+    margin-left: 35%;
+  }
+
+  .cubeDetailsHebergements {
+    min-height: 150px;
+  }
+
+  .sizeHebergements {
+    min-height: auto;
+    padding: 20px;
+  }
+
+  .sizePopulaires {
+    min-height: auto;
+    padding: 20px;
+  }
+
+  .tabletsizetitlePop {
+    margin-top: 0;
+  }
+}
+
+@media screen and (max-width:992px) {
+  .mobileFilterBreak {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .filterIconsText {
+    margin-bottom: 20px;
+  }
+
+  #Hébergements {
+    flex-direction: column-reverse;
+    width: 100%;
+  }
+
+  .blocPopulaires {
+    flex: none;
+    width: 90%;
+    margin-left: 0;
+    padding: 5%
+  }
+
+  .blocHebergements {
+    flex: none;
+    width: 90%;
+    margin-right: 0;
+    margin-top: 50px;
+    padding: 5%;
+  }
+
+  @media screen and (max-width: 768px) {
+
+    .sizeLiens {
+      width: 90%;
+    }
+
+    .sizeLien2 {
+      margin-left: 20%;
+    }
+
+    .blocHebergements {
+      height: auto;
+    }
+
+    .bloc1 {
+      flex-direction: column;
+      margin-bottom: 0;
+    }
+
+    .bloc2 {
+      flex-direction: column;
+      margin-top: 0;
+    }
+
+    .cubeHebergements {
+      width: 100%;
+      margin-bottom: 50px;
+    }
+
+    .cubeDetailsHebergements {
+      min-height: auto;
+    }
+
+    .blocActivites {
+      flex-direction: column;
+      height: auto;
+    }
+
+    .cubeActivites {
+      width: 100%;
+      margin-bottom: 50px;
+    }
+
+    .blocActivites2356 {
+      width: 100%;
+      height: auto;
+    }
+
+    .cubeActivites2356 {
+      margin-bottom: 50px;
+    }
+
+    .imgActivites1,
+    .imgActivites2,
+    .imgActivites3,
+    .imgActivites4,
+    .imgActivities5,
+    .imgActivities6 {
+      height: 200px;
+    }
+
+
+    .footer {
+      flex-direction: column;
+      align-items: flex-start;
+      height: auto;
+      padding-left: 20px;
+    }
+
+    .margeBlocFoot1 {
+      margin-left: 0;
+    }
+  }
+
+  @media screen and (max-width:600px) {
+    .mobilelogo {
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .sizeLien {
+      flex-direction: row;
+    }
+
+    .sizeLien2 {
+      order: 1;
+      width: 100%;
+      margin-left: 0;
+    }
+
+    .sizeLienMobile {
+      width: 50%;
+      border-top: 0;
+      border-bottom: 5px solid #F2F2F2;
+    }
+
+    .sizeLiens {
+      width: 100%;
+      flex-direction: row;
+      flex-wrap: wrap;
+    }
+
+    .sizeLienMobile:hover {
+      border-top: 0;
+      border-bottom: 5px solid #0065FC;
+    }
+
+    .bordureSearch {
+      width: auto;
+      border: none;
+    }
+
+    .searching {
+      width: 200px;
+      border-bottom: 1px solid #F2F2F2;
+      border-top: 1px solid #F2F2F2;
+    }
+
+    .buttonSearch {
+      width: 50px;
+      border-radius: 15px;
+    }
+
+    .desktopNone {
+      display: block;
+    }
+
+    .mobileNone {
+      display: none;
+    }
+
+    .margFilter {
+      padding-left: 5%;
+    }
+
+    .mobileEconomy {
+      margin-right: 5px;
+    }
+
+    .mobileFamily {
+      margin-right: 0;
+    }
+
+    .filterText {
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+
+    .info {
+      padding-left: 5%;
+    }
+
+    .blocPopulaires {
+      border-radius: 0;
+    }
+
+    .blocHebergements {
+      background-color: white;
+    }
+
+    .mobileTitleArticle {
+      padding-left: 5%;
+    }
+
+    .blocActivites {
+      padding: 5%;
+      width: 90%;
+    }
+
+    html,
+    body {
+      margin: 0;
+      padding: 0;
+    }
+  }
+}
